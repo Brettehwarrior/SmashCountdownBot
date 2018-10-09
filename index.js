@@ -66,7 +66,7 @@ function UpdateTime() {
     var date = new Date();
         
     // Days (months accounted for)
-    currentDay = date.getDay();
+    currentDay = date.getDate();
     currentMonth = date.getMonth()+1;
     targetDay = 7;
     switch (currentMonth) {
